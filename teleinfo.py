@@ -87,10 +87,10 @@ def verif_checksum(data, checksum):
 
 
 def main():
-    with serial.Serial(port='/dev/ttyS0', baudrate=1200, parity=serial.PARITY_NONE, stopbits=serial.STOPBITS_ONE,
+    with serial.Serial(port='/dev/ttyUSB0', baudrate=1200, parity=serial.PARITY_EVEN, stopbits=serial.STOPBITS_ONE,
                        bytesize=serial.SEVENBITS, timeout=1) as ser:
 
-        logging.info("Teleinfo is reading on /dev/ttyS0..")
+        logging.info("Teleinfo is reading on /dev/ttyUSB0..")
 
         trame = dict()
 
