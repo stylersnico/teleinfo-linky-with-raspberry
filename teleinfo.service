@@ -1,0 +1,16 @@
+[Unit]
+Description = Run teleinfo python script
+After = network.target
+
+[Service]
+Type = simple
+ExecStart = python /root/teleinfo.py
+User = root
+Group = root
+Restart = on-failure
+SyslogIdentifier = teleinfo
+RestartSec = 5
+TimeoutStartSec = infinity
+
+[Install]
+WantedBy = multi-user.target
