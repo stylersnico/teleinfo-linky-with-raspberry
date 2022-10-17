@@ -262,7 +262,7 @@
               },
               {
                 "params": [
-                  "*0.00007380"
+                  "*0.0001470"
                 ],
                 "type": "math"
               }
@@ -271,7 +271,7 @@
           "tags": []
         }
       ],
-      "title": "Tarif HC Période",
+      "title": "Tarif Bleu HC Période",
       "type": "stat"
     },
     {
@@ -471,7 +471,7 @@
               },
               {
                 "params": [
-                  "*0.00009790"
+                  "*0.0001841"
                 ],
                 "type": "math"
               }
@@ -663,7 +663,7 @@
       "pluginVersion": "9.2.0",
       "targets": [
         {
-          "alias": "pleines",
+          "alias": "Heures Pleines",
           "datasource": {
             "type": "influxdb",
             "uid": "${DS_INFLUXDB}"
@@ -694,7 +694,7 @@
           "tags": []
         },
         {
-          "alias": "creuses",
+          "alias": "Heures Creuses",
           "datasource": {
             "type": "influxdb",
             "uid": "${DS_INFLUXDB}"
@@ -987,7 +987,7 @@
       "pluginVersion": "9.2.0",
       "targets": [
         {
-          "alias": "hc",
+          "alias": "Index HC",
           "datasource": {
             "type": "influxdb",
             "uid": "${DS_INFLUXDB}"
@@ -1102,7 +1102,7 @@
       "pluginVersion": "9.2.0",
       "targets": [
         {
-          "alias": "pl",
+          "alias": "Index PL",
           "datasource": {
             "type": "influxdb",
             "uid": "${DS_INFLUXDB}"
@@ -1141,7 +1141,7 @@
     "list": []
   },
   "time": {
-    "from": "now-5m",
+    "from": "now-30m",
     "to": "now"
   },
   "timepicker": {
@@ -1172,6 +1172,6 @@
   "timezone": "",
   "title": "Conso Elec",
   "uid": "vrq6Vgigz",
-  "version": 3,
+  "version": 5,
   "weekStart": ""
 }
