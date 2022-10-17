@@ -15,4 +15,5 @@ We also provide the systemd service file to get the script running 24/7 and the 
 
 ## Installation
 
-Doc in progress
+French:https://wiki.abyssproject.net/fr/debian/linky/monitoring-linky-grafana
+English:https://wiki.abyssproject.net/en/debian/linky/monitoring-linky-grafana
