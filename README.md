@@ -1,4 +1,4 @@
-![Monitorer son compteur Linky avec Grafana](https://sebastienreuiller.fr/blog/wp-content/uploads/2019/10/capture_teleinfo_avec_tarif.png)
+![Monitorer son compteur Linky avec Grafana](https://raw.githubusercontent.com/stylersnico/teleinfo-linky-with-raspberry/master/grafana-linky.png)
 
 # Téléinfo Linky avec un Raspberry Pi
 
