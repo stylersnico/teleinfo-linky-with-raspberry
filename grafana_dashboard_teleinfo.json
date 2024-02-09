@@ -269,7 +269,7 @@
               },
               {
                 "params": [
-                  "*0.0001573"
+                  "*0.0001796"
                 ],
                 "type": "math"
               }
@@ -383,7 +383,7 @@
               },
               {
                 "params": [
-                  "*0.0002117"
+                  "*0.0002334"
                 ],
                 "type": "math"
               }
@@ -477,7 +477,7 @@
           "measurement": "HCHP",
           "orderByTime": "ASC",
           "policy": "default",
-          "query": "SELECT mean(\"value\") *0.0002117 FROM \"HCHP\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
+          "query": "SELECT mean(\"value\") *0.0002334 FROM \"HCHP\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
           "rawQuery": true,
           "refId": "A",
           "resultFormat": "time_series",
@@ -521,7 +521,7 @@
           "measurement": "HCHC",
           "orderByTime": "ASC",
           "policy": "default",
-          "query": "SELECT mean(\"value\") *0.0001573 FROM \"HCHC\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
+          "query": "SELECT mean(\"value\") *0.0001796 FROM \"HCHC\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
           "rawQuery": true,
           "refId": "B",
           "resultFormat": "time_series",
