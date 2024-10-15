@@ -58,8 +58,12 @@
                 "value": null
               },
               {
+                "color": "#EAB839",
+                "value": 3
+              },
+              {
                 "color": "red",
-                "value": 80
+                "value": 6
               }
             ]
           },
@@ -611,6 +615,6 @@
   "timezone": "",
   "title": "Conso Elec",
   "uid": "vrq6Vgigz",
-  "version": 10,
+  "version": 12,
   "weekStart": ""
 }
